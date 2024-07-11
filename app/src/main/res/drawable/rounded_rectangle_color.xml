@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/rounded_rectangle_other_color"/> <!-- El color de fondo del rectángulo -->
+    <corners android:radius="10dp"/> <!-- El radio de las esquinas redondeadas -->
+    <stroke android:width="0.99dp" android:color="#440131"/> <!-- El borde del rectángulo (opcional) -->
+</shape>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/dayMode"
+        android:title="@string/dayMode"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/darkMode"
+        android:title="@string/darkMode"
+        app:showAsAction="never" />
+</menu>

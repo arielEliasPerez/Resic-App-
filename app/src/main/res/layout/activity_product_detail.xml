@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="product.ProductDetailActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="29dp">
+
+    <ImageView
+        android:id="@+id/item_p_logo"
+        android:layout_width="184dp"
+        android:layout_height="175dp"
+        android:layout_marginTop="13dp"
+        android:background="#440131"
+        android:contentDescription="@string/item_logo_del_product"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imb_back_product_detail"
+        app:srcCompat="@drawable/dark_side_of_the_moon" />
+
+    <TextView
+        android:id="@+id/item_d_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="25dp"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/item_d_author"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imb_back_product_detail"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Harry potter y la piedra filosofal" />
+
+    <TextView
+        android:id="@+id/item_d_author"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/rounded_rectangle_color"
+        android:gravity="center"
+        android:text="@string/product_author"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.014"
+        app:layout_constraintStart_toEndOf="@+id/item_p_logo"
+        app:layout_constraintTop_toBottomOf="@+id/imb_back_product_detail"
+        tools:ignore="TextSizeCheck"
+        tools:text="                                 Haime Isayama" />
+
+    <TextView
+        android:id="@+id/item_d_releasedDate"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="4dp"
+        android:gravity="center"
+        android:text="@string/product_released_date"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.04"
+        app:layout_constraintStart_toEndOf="@+id/item_p_logo"
+        app:layout_constraintTop_toBottomOf="@+id/item_d_author"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/item_d_synopsis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/rounded_rectangle_color"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/item_d_clategory"
+        tools:text="narra el encuentro entre un aviador y un niño que viaja por el universo123. El principito le cuenta al aviador sus aventuras en diferentes planetas y le enseña el valor del amor y la amistad. El cuento es una reflexión sobre la vida, la inocencia, la imaginación y la crítica a la sociedad adulta" />
+
+    <TextView
+        android:id="@+id/item_d_clategory"
+        android:layout_width="167dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_rectangle_color"
+        android:gravity="center"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/item_p_logo"
+        tools:text="literatura infantil" />
+
+    <TextView
+        android:id="@+id/item_d_clasification"
+        android:layout_width="179dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_rectangle_color"
+        android:text="@string/product_classification"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rating_d_bar"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/item_d_price"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/rounded_rectangle_color"
+        android:text="@string/product_price"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_buy"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/item_d_clasification"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TextSizeCheck" />
+
+    <Button
+        android:id="@+id/btn_buy"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="@string/buy"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <RatingBar
+        android:id="@+id/rating_d_bar"
+        style="@style/Widget.AppCompat.RatingBar.Indicator"
+        android:layout_width="176dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/rounded_rectangle_color"
+        android:progressTint="#ED0606"
+        android:rating="4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/item_d_synopsis" />
+
+    <ImageButton
+        android:id="@+id/imb_back_product_detail"
+        android:layout_width="56dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="@color/colorBackground"
+        android:contentDescription="@string/imageButtonBack"
+        android:scaleType="centerInside"
+        android:src="?attr/actionModeCloseDrawable"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/colorOnPrimary"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

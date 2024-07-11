@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#191414</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+
+    <color name="rounded_rectangle_other_color">#191919</color>
+    <color name="categoryColor">#75527B</color>
+    <color name="searchView">#14060F</color>
+    <color name="rounded_rectangle">#191919</color>
+    <color name="rounded_rectangleBorder">#440131</color>
+    <color name="backgroundBorder">#0D1216</color>
+    <color name="border">#000000</color>
+    <color name="search_border">#200A18</color>
+    <color name="colorText">#FFFFFF</color>
+    <color name="colorBackground">#000000</color>
+
+</resources>

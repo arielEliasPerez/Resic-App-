@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/ascendant"
+        android:title="@string/ascendant"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/descendant"
+        android:title="@string/descendant"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/topRated"
+        android:title="@string/topRated"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/lowRated"
+        android:title="@string/lowRated"
+        app:showAsAction="never"/>
+
+</menu>

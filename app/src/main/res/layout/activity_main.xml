@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/im_m_books"
+        android:layout_width="107dp"
+        android:layout_height="96dp"
+        android:layout_marginEnd="239dp"
+        android:contentDescription="@string/decorative_image"
+        android:elevation="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/im_m_name_app"
+        app:layout_constraintHorizontal_bias="0.562"
+        app:layout_constraintStart_toStartOf="@+id/im_m_name_app"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05"
+        app:srcCompat="@drawable/p_libros"
+        app:tint="#F89E63"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/im_m_name_app"
+        android:layout_width="323dp"
+        android:layout_height="81dp"
+        android:contentDescription="@string/decorative_image"
+        android:elevation="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.048"
+        app:srcCompat="@drawable/nombre_de_la_app_main"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/im_m_music_circle"
+        android:layout_width="181dp"
+        android:layout_height="240dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="52dp"
+        android:contentDescription="@string/decorative_image"
+        app:layout_constraintBottom_toBottomOf="@+id/im_m_color_circle"
+        app:layout_constraintEnd_toEndOf="@+id/im_m_color_circle"
+        app:layout_constraintHorizontal_bias="0.423"
+        app:layout_constraintStart_toStartOf="@+id/im_m_color_circle"
+        app:layout_constraintTop_toTopOf="@+id/im_m_color_circle"
+        app:layout_constraintVertical_bias="0.674"
+        app:srcCompat="@drawable/circulo_musical_mas_oscuro"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/im_m_color_circle"
+        android:layout_width="218dp"
+        android:layout_height="360dp"
+        android:layout_marginTop="84dp"
+        android:contentDescription="@string/decorative_image"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/im_m_name_app"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/circulo_rosa_mas_oscuro"
+        tools:ignore="ImageContrastCheck" />
+
+    <Button
+        android:id="@+id/btn_sing_up"
+        android:layout_width="158dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="63dp"
+        android:text="@string/sing_up"
+        android:textColor="@color/colorOnPrimary"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/im_m_color_circle" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="44dp"
+        android:text="@string/login"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_sing_up"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

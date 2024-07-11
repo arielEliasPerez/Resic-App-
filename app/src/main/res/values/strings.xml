@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">Resic app</string>
+    <string name="sing_up">Registrarse</string>
+    <string name="login">Iniciar sesion</string>
+    <string name="required">Requerido</string>
+
+    <string name="user_name">nombre</string>
+    <string name="sur_name">apellido</string>
+    <string name="nick_name">nick name</string>
+    <string name="password">password</string>
+
+    <string name="recommended">Recomendado para ti</string>
+    <string name="library_empty">Aun no tienes ningun producto</string>
+    <string name="user_cash">Dinero disponible: $%s</string>
+    <string name="products_not_found">No  hay  coincidencias: %s</string>
+    <string name="found">Buscando:  %s</string>
+
+
+
+    <!-- content Description -->
+    <string name="decorative_image">Imagen decorativa</string>
+    <string name="image_login">Imagen que dice iniciar sesion</string>
+    <string name="image_sing_up">Imagen que dice registrarse</string>
+    <string name="logo_user">logo usuario</string>
+    <string name="imageButton_user">pantalla usuario</string>
+    <string name="imageButtonBack">boton para volver</string>
+    <string name="item_logo_del_product">logo del producto</string>
+
+
+
+    <!-- Navigation button -->
+    <string name="home">Casa</string>
+    <string name="search">Buscar</string>
+    <string name="library">Bibloteca</string>
+    <string name="shopp">Shopp</string>
+
+
+    <!-- Detailers of product -->
+    <string name="buy">comprar</string>
+    <string name="product_detail"><u>Detalle producto:</u></string>
+    <string name="product_type">Tipo    \n%s</string>
+    <string name="product_price">Precio    \n$%s</string>
+    <string name="product_title">Titulo \n%s</string>
+    <string name="product_author">Autor \n%s</string>
+    <string name="product_classification">Clasificasion:  \n%s</string>
+    <string name="product_category">Category  \n%s</string>
+    <string name="product_released_date">Fecha salida \n%s</string>
+
+    <!-- Detailers of purchase -->
+    <string name="purchase_detail"><u>Detalle compra</u></string>
+    <string name="product_commission">Comisión    \n%s</string>
+    <string name="product_amount">Precio final    \n$%s</string>
+    <string name="product_date_of_purchase">Fecha de compra    \n%s</string>
+    <string name="receipt">Detalle compra</string>
+
+    <!-- menu order by-->
+    <string name="orderBy">ordenar por</string>
+    <string name="ascendant">menor a mayor precio</string>
+    <string name="descendant">mayor a menor precio</string>
+    <string name="topRated">calificacion mayor</string>
+    <string name="lowRated">calificacion menor</string>
+
+    <!-- popUp menuType -->
+    <string name="type">Etiquetas</string>
+    <string name="book">Libros</string>
+    <string name="disc">Discos</string>
+    <string name="all">Todos</string>
+
+    <!-- user -->
+    <string name="user">Usuario</string>
+    <string name="underline_nickName"><u>Nombre de usuario</u></string>
+    <string name="underline_userMoney"><u>Dinero de la cuenta</u></string>
+    <string name="underline_quantity_user_of_products"><u>N° Productos</u></string>
+    <string name="underline_userSpentMoney"><u>Dinero gastado</u></string>
+    <string name="underline_userProductsInfo"><u>Informacin adicional</u></string>
+    <string name="underline_user_history"><u>Historial</u></string>
+    <string name="logOff">Cerrar Sesión</string>
+    <string name="cash">$%s</string>
+    <string name="count">N°%s</string>
+    <string name="last_purchase">Ultima compra:  %s</string>
+    <string name="user_create_data">Se uno el %s</string>
+    <string name="show_history">Ver mas…</string>
+
+    <!-- History -->
+    <string name="history">Historial</string>
+    <string name="history_date">Fecha:  %s</string>
+    <string name="history_title">Titulo:  %s</string>
+    <string name="history_productType">Producto:  %s</string>
+    <string name="history_spent">Pago:  %s</string>
+
+    <!-- Theme -->
+    <string name="dayMode">modo dia</string>
+    <string name="darkMode">modo oscuro</string>
+
+</resources>

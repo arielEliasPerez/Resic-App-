@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_p_disc"
+        android:title="@string/disc"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_p_books"
+        android:title="@string/book"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_p_alls"
+        android:title="@string/all"
+        app:showAsAction="never" />
+
+</menu>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- colores generales -->
+    <color name="colorPrimary">#81EB75</color>
+    <color name="colorOnPrimary">#17010E</color>
+
+    <color name="colorText">#17010E</color>
+    <color name="colorBackground">#FFF1F1</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- colores de la pantalla de busqueda -->
+    <color name="searchView">#F3AEFF</color>
+    <color name="search_border">#EE8DFF</color>
+    <color name="categoryColor">#E7A6F2</color>
+
+    <!-- fondo del texto -->
+    <color name="rounded_rectangle_other_color">#DBFCF2</color>
+
+    <!-- fondo del producto-->
+    <color name="rounded_rectangle">#F1FFFB</color>
+    <color name="rounded_rectangleBorder">#7F7F7F</color>
+
+    <!-- fondo del recycler view-->
+    <color name="backgroundBorder">#FBFFFF</color>
+    <color name="border">#7F7F7F</color>
+
+    <!-- color de la imagen si hay que cambiarla-->
+    <color name="image_log">#DB5965</color>
+
+
+</resources>
