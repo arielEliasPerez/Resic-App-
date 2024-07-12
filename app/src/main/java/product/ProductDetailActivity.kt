@@ -2,6 +2,7 @@ package product
 
 import android.content.Intent
 import android.os.Bundle
+import android.text.method.ScrollingMovementMethod
 import android.widget.Button
 import android.widget.ImageButton
 import android.widget.ImageView
@@ -67,6 +68,8 @@ class ProductDetailActivity : AppCompatActivity() {
         synopsis  = findViewById(R.id.item_d_synopsis)
         ratingBar = findViewById(R.id.rating_d_bar)
         clasification = findViewById(R.id.item_d_clasification)
+
+        synopsis.movementMethod = ScrollingMovementMethod()
 
         renameItem(product)
 

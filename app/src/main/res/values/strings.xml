@@ -39,10 +39,10 @@
     <string name="buy">Comprar</string>
     <string name="product_detail"><u>Detalle producto:</u></string>
     <string name="product_type">Tipo    \n%s</string>
-    <string name="product_price">Precio    \n$%s</string>
+    <string name="product_price">Precio:      $%s</string>
     <string name="product_title">Título \n%s</string>
     <string name="product_author">Autor \n%s</string>
-    <string name="product_classification">Clasificación:  \n%s</string>
+    <string name="product_classification">Clasificación:  %s</string>
     <string name="product_category">Category  \n%s</string>
     <string name="product_released_date">Fecha de salida \n%s</string>
 
