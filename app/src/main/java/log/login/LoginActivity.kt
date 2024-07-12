@@ -108,7 +108,7 @@ class LoginActivity : AppCompatActivity() {
 
         } ?: run {
 
-            temporaryMessage(message = "Usuario no encontrado :/")
+            temporaryMessage(message = "Usuario no encontrado")
         }
 
     }

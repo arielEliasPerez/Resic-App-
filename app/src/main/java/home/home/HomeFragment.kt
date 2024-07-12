@@ -21,10 +21,6 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.resicapp.R
 import com.example.resicapp.databinding.FragmentHomeBinding
-import data.Product
-import data.ProductType
-import repositories.CategoryRepository
-import repositories.ProductRepository
 import user.HistoryActivity
 import user.UserActivity
 import user.UserSystem
@@ -71,7 +67,7 @@ class HomeFragment : Fragment() {
         val menuHost: MenuHost = requireActivity()
         menuHost.addMenuProvider(object : MenuProvider {
             override fun onCreateMenu(menu: Menu, menuInflater: MenuInflater) {
-                menuInflater.inflate(R.menu.menu_hamburger_theme, menu)
+                menuInflater.inflate(R.menu.menu_theme, menu)
             }
 
             override fun onMenuItemSelected(menuItem: MenuItem): Boolean {

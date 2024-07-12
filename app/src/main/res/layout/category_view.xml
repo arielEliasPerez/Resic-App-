@@ -10,6 +10,7 @@
         android:layout_width="126dp"
         android:layout_height="0dp"
         android:background="@drawable/border_category"
+        android:fontFamily="sans-serif-condensed"
         android:gravity="center"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline5"
