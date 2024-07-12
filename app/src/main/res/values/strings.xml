@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name"></string>
     <string name="sing_up">Registrarse</string>
-    <string name="login">Iniciar sesion</string>
+    <string name="login">Iniciar sesión</string>
     <string name="required">Requerido</string>
 
     <string name="user_name">Nombre</string>
@@ -31,7 +31,7 @@
     <!-- Navigation button -->
     <string name="home">Home</string>
     <string name="search">Búsqueda</string>
-    <string name="library">Bibloteca</string>
+    <string name="library">Biblioteca</string>
     <string name="shopp">Shopp</string>
 
 

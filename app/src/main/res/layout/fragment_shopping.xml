@@ -9,13 +9,14 @@
         android:id="@+id/tv_pop_up"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="@string/orderBy"
         android:textSize="16sp"
         app:drawableEndCompat="@android:drawable/arrow_down_float"
         app:drawableTint="#440131"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.938"
+        app:layout_constraintHorizontal_bias="0.913"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="TextSizeCheck"
@@ -23,12 +24,12 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_products"
-        android:layout_width="336dp"
-        android:layout_height="481dp"
-        android:layout_marginTop="112dp"
+        android:layout_width="369dp"
+        android:layout_height="527dp"
+        android:layout_marginTop="80dp"
         android:background="@drawable/border"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintHorizontal_bias="0.68"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/divider3"
         tools:listitem="@layout/products_view" />
@@ -37,22 +38,25 @@
         android:id="@+id/divider3"
         android:layout_width="wrap_content"
         android:layout_height="1dp"
-        android:layout_marginTop="16dp"
         android:background="?android:attr/listDivider"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_pop_up" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.135" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="@string/shopp"
         android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.113"
+        app:layout_constraintHorizontal_bias="0.172"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -60,23 +64,26 @@
         android:id="@+id/tv_s_cash"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="36dp"
-        android:layout_marginBottom="44dp"
+        android:layout_marginEnd="28dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="@string/user_cash"
-        app:layout_constraintBottom_toTopOf="@+id/rv_products"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.185" />
 
     <TextView
         android:id="@+id/tv_s_user"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginStart="40dp"
         android:textSize="16sp"
         app:drawableTint="@color/colorOnPrimary"
         app:drawableTopCompat="@drawable/baseline_account_circle_24"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/divider3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.175"
         tools:text="usuario" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
